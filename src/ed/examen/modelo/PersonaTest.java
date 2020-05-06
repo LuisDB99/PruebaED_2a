@@ -24,7 +24,7 @@ class PersonaTest {
 			p.setDni("12345678A");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			assertEquals("12345678A",p.getDni());
+			assertEquals("12345678B",p.getDni());
 		}
 	}
 
@@ -35,13 +35,13 @@ class PersonaTest {
 
 	@Test
 	void testSetNombre() {
-		p.setNombre("Luis");;
-		assertEquals("Luis",p.getNombre());
+		p.setNombre("Alvaro");;
+		assertEquals("Alvaro",p.getNombre());
 	}
 
 	@Test
 	void testGetApellido1() {
-		fail("Not yet implemented");
+		assertEquals("Doblas",p.getApellido1());
 	}
 
 	@Test
