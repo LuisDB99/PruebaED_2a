@@ -44,6 +44,12 @@ public class Curso {
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	/**
+	 * 
+	 * @param dni
+	 * @return, devuelve true si el alumno esta en el arrayList y false
+	 * si no esta.
+	 */
 	public Boolean estaRegistrado(String dni) {
 		int i =0;
 		Boolean encontrado=false;
