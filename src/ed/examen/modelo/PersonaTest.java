@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class PersonaTest {
+	
+	Persona p = new Persona("12345678A", "Luis", "Doblas");
 
 	@Test
 	void testPersonaStringStringString() {
@@ -13,7 +15,7 @@ class PersonaTest {
 
 	@Test
 	void testGetDni() {
-		fail("Not yet implemented");
+		assertEquals("12345678A",p.getDni());
 	}
 
 	@Test
