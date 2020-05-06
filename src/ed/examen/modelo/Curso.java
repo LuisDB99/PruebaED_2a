@@ -75,6 +75,10 @@ public class Curso {
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	/**
+	 * 
+	 * @return, devuelve el tamaño del arrray
+	 */
 	public Integer numeroAlumnos() {return listaAlumnos.size();}
 	
 	
