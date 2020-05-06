@@ -22,7 +22,11 @@ class CursoTest {
 
 	@Test
 	void testAniadirAlumno() {
-		fail("Not yet implemented");
+		int i = c.numeroAlumnos();
+		c.aniadirAlumno(p);
+		int j = c.numeroAlumnos();
+		
+		assertEquals(i+1,j);
 	}
 
 	@Test
