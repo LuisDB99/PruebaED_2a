@@ -43,7 +43,7 @@ class CursoTest {
 
 	@Test
 	void testNumeroAlumnos() {
-		fail("Not yet implemented");
+		equals(c.numeroAlumnos());
 	}
 
 }
