@@ -1,5 +1,10 @@
 package ed.examen.modelo;
 
+/**
+ * @author luis
+ * @version 0.1, 03/05/2020 
+ */
+
 public class Persona{
 	
 	private String dni;
@@ -11,6 +16,11 @@ public class Persona{
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	/**
+	 * @param dni
+	 * @param nombre
+	 * @param apellido1
+	 */
 	public Persona(String dni, String nombre, String apellido1) {
 		this.dni = dni;
 		this.nombre = nombre;

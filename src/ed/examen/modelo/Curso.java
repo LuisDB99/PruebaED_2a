@@ -3,6 +3,11 @@ package ed.examen.modelo;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author luis
+ * @version 0.1, 03/05/2020 
+ */
+
 public class Curso {
 	
 	private List<Persona> listaAlumnos;
