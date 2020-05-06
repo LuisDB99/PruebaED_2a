@@ -10,7 +10,7 @@ class PersonaTest {
 
 	@Test
 	void testPersonaStringStringString() {
-		assertEquals("12345678A", "Luis", "Doblas");
+		assertEquals("12345678A", p.getDni());
 	}
 
 	@Test
@@ -24,7 +24,7 @@ class PersonaTest {
 			p.setDni("12345678A");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			assertEquals("12345678B",p.getDni());
+			assertEquals("12345678A",p.getDni());
 		}
 	}
 
