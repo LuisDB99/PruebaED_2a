@@ -81,6 +81,10 @@ public class Persona{
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	/**
+	 * 
+	 * @return, devuelve el apellido
+	 */
 	public String getApellido1() {
 		return apellido1;
 	}
