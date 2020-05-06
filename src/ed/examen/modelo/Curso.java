@@ -15,6 +15,12 @@ public class Curso {
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	/**
+	 * 
+	 * @param dni
+	 * @throws Exception, devuelve un error si el dni introducciodo 
+	 * no tiene la longitud que le damos en el if.
+	 */
 	public void eliminarAlumno(String dni) throws Exception {
 		if(dni.length()==9) {//comprobar la longitud del dni
 			listaAlumnos.remove(new Persona(dni, "", "")); //solo hace falta el dni
