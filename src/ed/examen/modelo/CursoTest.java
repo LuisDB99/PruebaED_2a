@@ -31,7 +31,9 @@ class CursoTest {
 
 	@Test
 	void testEstaRegistrado() {
-		fail("Not yet implemented");
+		Boolean encontrado = c.estaRegistrado("12345678B");
+		assertFalse(encontrado);
+		assertEquals(false,c.estaRegistrado("12345678B"));
 	}
 
 	@Test
